@@ -1,6 +1,6 @@
 package create;
 
-public class DecoratorPagina implements CrearBody,CrearImagen,CrearPagina,CrearTexto{
+public class WrapperPagina implements CrearBody,CrearImagen,CrearPagina,CrearTexto{
 	@Override
 	public String crearBody(String s) {
 		return "<body>"+s+"</body>";
