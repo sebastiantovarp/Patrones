@@ -23,10 +23,10 @@ public class Cliente {
 
         while (opcionSeleccionada != 6) {
             System.out.println("Seleccione una opción:");
-            System.out.println("1. Creación usuarios");
-            System.out.println("2. Opción 2");
-            System.out.println("3. Opción 3");
-            System.out.println("4. Opción 4");
+            System.out.println("1. Crear HTML");
+            System.out.println("2. Insertar Texto");
+            System.out.println("3. Insertar body");
+            System.out.println("4. Insertar imagenes");
             System.out.println("5. Opción 5");
             System.out.println("6. Salir");
 
