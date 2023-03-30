@@ -15,13 +15,6 @@ public class WrapperPagina implements CrearBody,CrearImagen,CrearPagina,CrearTex
 	public String crearPagina(String tag,String s) {
 		return "<"+tag+">"+s+"</"+tag+">";
 	}
-	
-
-	@Override
-	public String crearTexto(String s) {
-		return s;
-	}
-	
 
 
 }
