@@ -32,8 +32,7 @@ public class Cliente {
                 System.out.println("2. Insertar body");
                 System.out.println("3. Insertar Texto");
                 System.out.println("4. Insertar imagén");
-                System.out.println("5. Opción 5");
-                System.out.println("6. Salir");
+                System.out.println("5. Salir");
 
                 try {
                     opcionSeleccionada = Integer.parseInt(scanner.nextLine());
@@ -78,6 +77,11 @@ public class Cliente {
 
     private void opcion4() {
         System.out.println("Opción 4 seleccionada.");
+        System.out.println("Ingrese la ruta de la imagen que desea agregar");
+        String s = scanner.nextLine();
+        System.out.println("Ingrese el titulo de la imagen");
+        String s = scanner.nextLine();
+        facade.crearImagen(s, s)
     }
 
     private void opcion5() {
